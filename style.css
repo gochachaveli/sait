@@ -1,0 +1,194 @@
+*,::before*,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    border: 2px solid palevioletred;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    background-image: url(../practice/img/Rectangle.jpg);
+    min-height: 100vh;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li a{
+    color: rgb(174, 111, 16);
+    transition: all 0.5s;
+}
+
+nav ul li a:hover{
+    opacity: 0.5;
+}
+
+.info h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    max-width: 734px;
+    margin: 0 auto;
+}
+
+.info p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0px 30px;
+    border: solid red 2px;
+    background-color: #F7F7F7;
+    transform: translate(0px,-90px);
+}
+
+/*.godaElement{
+    
+}*/
+
+.godaElement h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.godaElement p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
+
+.godaElement span{
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7654A;
+}
+
+.product h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404149;
+}
+
+/*.productElement{
+
+}*/
+
+.productElement h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+}
+.productElement p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.gridContainer2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0px 30px;
+    border: solid red 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .gridContainer{
+        transform: translate(0px , 0px);
+    }
+}
+
+@media screen  and (max-width:400px){
+    .gridContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .gridContainer2{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen  and (max-width:300px){
+    .gridContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .info h1{
+        font-size: 36px;
+    }
+    .gridContainer2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .productElement h3{
+        font-size: 15px;
+    }
+    .productElement p{
+        font-size: 8px;
+    }
+}
