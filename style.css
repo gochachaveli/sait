@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    background-image: url(../practice/img/Rectangle.jpg);
+    background-image: url(./img/Rectangle.jpg);
     min-height: 100vh;
 }
 
@@ -145,6 +145,165 @@ nav ul li a:hover{
     grid-gap: 0px 30px;
     border: solid red 2px;
 }
+
+.requestParent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.requestItem h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.requestInfo p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.request{
+    background-color: #F7654A;
+    padding: 30px 0;
+    max-width: 100%;
+}
+
+.moonInside{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0 30px;
+}
+
+.moonInfo img{
+    padding-left: 127px;
+}
+
+.moonInfo p{
+    padding-left: 127px;
+}
+
+.moonQuestion h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.tortoBulochki{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 100%;
+}
+
+.tortoBulochki img{
+    max-width: 100%;
+}
+
+.spTxt h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.spImg{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.Sponsors{
+    background: #404149;;
+}
+
+.connection{
+    background: #F7654A;
+}
+
+.cntsIMGnNumbrs h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #999999;
+}
+
+.cntsIMGnNumbrs p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.cntsIMGnNumbrs h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7654A;
+}
+
+.cntsQuestion{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.gridCnts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.cntsIMGnNumbrs img{
+    display: block;
+    margin: 0 auto;
+}
+
+.footerTxt p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footerTxt h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.footerTxt{
+    background: #404149;
+}
+
+
+
+
 
 
 
